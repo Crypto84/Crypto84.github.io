@@ -1,5 +1,6 @@
 body {
-    background: grey;
+    color: white;
+    background: teal;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -14,17 +15,18 @@ div {
 .flex-child {
     flex: 1;
     background-color: lightcyan;
-    border: 4px solid brown;
+    border: 4px solid greenyellow;
+    color: #C72277;
+}
+.bannerTitle {
+    color: #C72277;;
+    text-decoration: none;
 }
 
-#home {
-    margin-right: 5px;
-}
-#ms {
-    margin-right: 5px;
-}
-#con {
-    margin-right: 5px;
+#title {
+    background-color:lightcyan;
+    border: 4px solid greenyellow;
+    color: #C72277;;
 }
 
 h2 {
@@ -35,4 +37,20 @@ h2 {
 h1 {
     font-size: 30pt;
     text-align: center;
+}
+
+p {
+    text-align: center;
+}
+#main {
+    padding: 1%;   
+    color: white;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a {
+    color: white;
 }

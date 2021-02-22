@@ -7,30 +7,38 @@
         <link href="style.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
+        <div id="title">
+            <h1>Welcome to the House of Morris</h1>
+        </div>
         <!-- Banner -->
         <div class = "flex-container">
-            <div class="flex-child" id="home">
-              <a href="index.html">
-                <h2>Home</h2>
-              </a>
-            </div>
-            <div class="flex-child" id="projects">
-              <a href="projects.html">
-                <h2>Projects</h2>
-              </a>
-            </div>
-            <div class="flex-child" id="about">
-                <a href="about.html">
-                  <h2>About</h2>
-                </a>
-              </div>
-          </div>
 
-          <p>Here is a list of my projects</p>
-          
-          <ul>
-              <li> <a href="projects/connect.html">Connect 4</a> </li>
-              <li> <a href="projects/minesweeper.html">Minesweeper</a> </li>
-          </ul>
+            <div class="flex-child" id="home">
+                <a href="index.html" class="bannerTitle">
+                    <h2>Home</h2>
+                </a>
+            </div>
+
+            <div class="flex-child" id="projects">
+                <a href="projects.html" class="bannerTitle">
+                    <h2>Projects</h2>
+                </a>
+            </div>
+
+            <div class="flex-child" id="about">
+                <a href="about.html" class="bannerTitle">
+                    <h2>About</h2>
+                </a>
+            </div>
+
+        </div>
+
+        <div id="main">
+            <p>Here is a list of my projects:</p>
+            <ul>
+                <li> <a href="projects/connect.html">Connect 4</a> </li>
+                <li> <a href="projects/minesweeper.html">Minesweeper</a> </li>
+            </ul>
+        </div>
     </body>
 </html>
