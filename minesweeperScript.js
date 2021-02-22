@@ -4,7 +4,7 @@ var length;
 var flagMode = false;
 
 function setup() {
-  createCanvas(1000, 1000);
+  createCanvas(40*12, 40*12);
 }
 class Cell {
   constructor(i, j) {
