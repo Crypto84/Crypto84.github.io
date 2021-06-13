@@ -54,3 +54,15 @@ a:link {
 a {
     color: white;
 }
+table {
+    border: 1px solid black;
+    width: 100%;
+    border-collapse:collapse;
+}
+th{
+    border: 1px solid black;
+}
+td {
+    text-align: left;
+    border: 1px solid black;
+}
